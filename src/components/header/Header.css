@@ -5,7 +5,6 @@
 
 /*  HEADER   */
 
-
 .header {
     max-width: 100%;
     padding: 15px 20px;
@@ -27,8 +26,10 @@
     font-weight: bold;
     padding: 0 10px;
     color: white;
+
 }
 
 .grey-color {
     color: gray;
+
 }
