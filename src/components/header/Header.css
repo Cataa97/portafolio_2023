@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 @font-face {
     font-family: "Agustina Regular";
     src: url("E:/Proyectos/portafolio-2023/portafolio_2023/src/assets/fonts/Agustina-Signature.otf");
@@ -19,6 +21,7 @@
     text-decoration: none;
     margin-top: 10px;
     line-height: normal;
+
 }
 
 .header .logo-name {
@@ -26,10 +29,53 @@
     font-weight: bold;
     padding: 0 10px;
     color: white;
-
+    font-weight: 10;
 }
 
 .grey-color {
     color: gray;
 
 }
+
+
+/*LINKS */
+
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 250px;
+}
+
+
+.header li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*MENU */
+
+.menu {
+    display: inline-flex;
+   
+}
+
+.header .menu {
+    clear: both;
+    /* max-height: 0; */
+    transition: max-height 0.2s ease-out;
+}
+
+.header li {
+    float: left;
+    display: list-item;
+}
+
