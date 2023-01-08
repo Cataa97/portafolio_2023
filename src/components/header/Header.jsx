@@ -11,6 +11,18 @@ export const Header = () => {
                     <span className="logo-name">Catalina Castillo</span>
                     <span className="grey-color">/&gt;</span>
                 </a>
+
+                <ul className='menu'>
+                    <li>
+                        <a href="">Skills</a>
+                    </li>
+                    <li>
+                        <a href="">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="">Contacto</a>
+                    </li>
+                </ul>
             </header>
         </Headroom>
     )
