@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main {
+    width: 90%;
+    padding: 10px 10px;
+    margin: 0px auto;
+    margin-top: 1rem;
+}
+
+.greet-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+}
+
+.greeting-main {
+    display: flex;
+}
+
+.greeting-text-div {
+    width: 50%;
+    padding-top: 85px;
+    font-size: 70px;
+    line-height: 1.1;
+    color: white !important;
+}
+
+.greeting-subTitle {
+    color: white;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2rem;
+}
+
+.computer-emoji {
+    display: inline-block;
+    transform-origin: 70% 70%;
+    padding-left: 5px;
+}
+
+.greeting-title {
+    color: white;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ANIMACIÓN EMOJI */
+
+.wave-emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+    padding-left: 20px;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(-10deg);
+    }
+
+    20% {
+        transform: rotate(12deg);
+    }
+
+    30% {
+        transform: rotate(-10deg);
+    }
+
+    40% {
+        transform: rotate(9deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/* ANIMACION */
+
+.vid {
+    padding-top: 0px;
+    height: 80vh;
+    margin-bottom: 70px;
+}
+
+.vid video {
+    height: 100%;
+}
+
+/* ICONS  */
+
+.color-icon {
+    color: #AA661D;
+}
+
+
+/* BOTONES */
+
+.button-greeting-div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.main-button {
+    background-color: #469B9B;
+    border: solid 1px #469B9B;
+    color:  #002733;
+    font-weight: 700;
+    width: 10rem;
+    padding: 13px 22px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.main-button:hover {
+    background-color:#AA661D;
+    border: solid 1px #AA661D;
+    color: #002733;
+    transition: all 0.3s ease 0s;
+    transform: translateY(-3px);
+}
+
+/* ICONOS REDES  */
+
+.icon{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+}
